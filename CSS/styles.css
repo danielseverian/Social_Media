@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter";
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    align-items: center;
+    background-color: hsl(0, 0%, 8%);
+
+}
+
+.attribution {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    height: 450px;
+    width: 300px;
+    background-color: hsl(0, 0%, 12%);
+    
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;  
+    
+}
+
+.btn {
+    display: flex;
+    width: 240px;
+    justify-content: center; 
+    padding: 10px;
+    font-size: 0.7rem;
+    font-weight: bold;
+    border-radius: 6px;
+    border: none;
+    background-color: hsl(0, 0%, 20%);
+    color: #fff;
+}
+
+.btn:hover {
+    background-color: hsl(75, 94%, 57%);
+    cursor: pointer;
+    color: black;
+}
+
+.img-container {
+    margin-top: 28px;
+    
+}
+
+.img-container img {
+    border-radius: 50%;
+    width: 75px;
+        
+}
+
+.data h3{
+    color: #fff;
+    font-size: 1.2rem;
+    margin-bottom: 2px;
+    margin-top: 14px;
+
+}
+
+.data span {
+    color: hsl(75, 94%, 57%);
+    margin-top: 0;
+    font-size: 0.7rem;
+    font-weight: bold;
+    
+}
+
+.quote {
+    margin-top: 20px;
+    margin-bottom: 18px;
+    color: #fff;
+    font-size: 0.7rem;
+   
+}
